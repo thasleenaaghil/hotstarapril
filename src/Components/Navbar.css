@@ -1,0 +1,19 @@
+h6:hover{
+   text-decoration: underline;
+   text-underline-offset: 8px;
+}
+h6{
+    cursor: pointer;
+}
+@media(max-width:600px){
+    #back{
+      display: none;
+      padding: 5px;
+
+      
+    }
+    .icon{
+      size: 15px;
+  
+    }
+}

@@ -1,0 +1,9 @@
+video:hover{
+    opacity: 100%;
+}
+img{
+    opacity: 100%;
+}
+video{
+    opacity: 0;
+}

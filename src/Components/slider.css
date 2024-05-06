@@ -1,0 +1,11 @@
+
+.slider{
+    overflow-x: scroll;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+
+}
+
+
