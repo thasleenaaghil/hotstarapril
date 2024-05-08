@@ -40,6 +40,7 @@ const DisneyList =[
         video:geographic
     }
 ]
+
   return (
     <div className='d-flex  pt-4 ps-5 px-5 md:px-16 gap-4 md:gap-5'>
         {DisneyList.map((item)=>(

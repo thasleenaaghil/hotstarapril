@@ -51,7 +51,7 @@ function Navbar() {
         <FontAwesomeIcon icon={faMagnifyingGlass} className='pb-2 pe-2 icon' />
         <h6 className='ps-4 pe-2'id='back'>WATCH LIST</h6>
         <FontAwesomeIcon icon={faPlus} className='pb-2 pe-2 icon' />
-        <h6 className='ps-4 pe-2'id='back'>ORIGINALS</h6>
+        <h6 className='ps-4 pe-2'id='back'>CATEGORIES</h6>
         <FontAwesomeIcon icon={faStar} className='pb-2 pe-2 icon'/>
         <h6 className='ps-4 pe-2'id='back'>MOVIES</h6>
         <FontAwesomeIcon icon={faFilm} className='pb-2 pe-2 icon'/>

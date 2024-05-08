@@ -15,12 +15,31 @@ function Slider() {
         })
     }
   return (
-    <div className='flex slider w-full px-16 py-4 '>
-        {movieList.map((item,index)=>
-     <img src={Image_base_url+item.backdrop_path
-     } className='min-w-full object-cover object-left-top mr-5 rounded-md hover:border-[4px] border-gray-400' style={{height:'330px'}} />
-    )}
-    </div>
+   
+      <div className='slider d-flex w-100 px-16 py-4' >
+        
+          {movieList.map((item,index)=>
+   
+        
+           <img src={Image_base_url+item.backdrop_path} className='d-flex min-w-full object-cover object-left-top mr-5 rounded-md hover:border-[4px] border-gray-400' style={{height:'350px'}} />
+  
+          //  {/* <div className='text-light p-5 ' style={{position:'relative',backgroundColor:'transparent',height:'350px',width:'200vh'}} >
+          //   <h1 style={{backgroundColor:'transparent'}}>{item.title}</h1>
+          //   <p style={{backgroundColor:'transparent',textAlign:'justify'}}>{item.overview}</p>
+          //   <h4 style={{backgroundColor:'transparent'}}>2h:45min</h4>
+          //   <button className='btn btn-light'style={{backgroundColor:'transparent',color:'white'}} >Watch Now</button>
+          //  </div> */}
+          
+     
+            
+       
+      )}
+      {/* <div style={{position:'absolute',color:'white',backgroundColor:'transparent'}}>
+        
+        {movieList.map((item)=>item.title)}
+      </div> */}
+      </div>
+  
   )
 }
 
