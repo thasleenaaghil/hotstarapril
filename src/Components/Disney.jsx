@@ -42,9 +42,9 @@ const DisneyList =[
 ]
 
   return (
-    <div className='d-flex  pt-4 ps-5 px-5 md:px-16 gap-4 md:gap-5'>
+    <div className='d-flex  pt-5 ps-5 px-5 md:px-16 gap-4 md:gap-5 ' >
         {DisneyList.map((item)=>(
-            <div className='border border-secondary rounded-lg hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer relative shadow-gray-800'  >
+            <div className='border border-secondary rounded-lg hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer relative shadow-gray-800' style={{marginTop:'80px'}} >
                 <video src={item.video} autoPlay loop playsInline muted className='absolute z-0 top-0 rounded-md '/>
                 <img src={item.image} className='w-full z-[1] ' />
                 
