@@ -13,7 +13,7 @@ function Slider() {
     },[])
     const getTrendingMovies=()=>{
         BaseApi.getTrendingVideos.then(response=>{
-            // console.log(response.data.results);
+            console.log(response.data.results);
             setMovieList(response.data.results)
         })
     }
